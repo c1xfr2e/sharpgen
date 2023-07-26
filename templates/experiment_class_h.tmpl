@@ -1,0 +1,25 @@
+#ifndef __{{class_name}}_H__
+#define __{{class_name}}_H__
+
+#include "TestItemBase.h"
+
+// {{cn_name}}
+
+class {{class_name}} : public TestItemBase
+{
+public:
+	{{class_name}}();
+	~{{class_name}}();
+
+    virtual void ClearResult();
+    virtual void CalcResult();
+    virtual void InitBookMarkers();
+
+    virtual bool Load();
+    virtual bool Save();
+
+    virtual int SetTestSetting();
+    virtual int StartTest();
+};
+
+#endif

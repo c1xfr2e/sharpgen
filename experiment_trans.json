@@ -1,0 +1,698 @@
+{
+	"categories": [
+		{
+			"name": "一般检查",
+			"id": "general inspection",
+			"experiments": [
+				{
+					"name": "外观检查",
+					"id": "appearance inspection",
+					"enum": "GI_APPEARANCE_INSPECTION"
+				},
+				{
+					"name": "标志检查",
+					"id": "identity inspection",
+					"enum": "GI_IDENTITY_INSPECTION"
+				},
+				{
+					"name": "基本构成检查",
+					"id": "basic construction inspection",
+					"enum": "GI_BASIC_CONSTRUCTION_INSPECTION"
+				},
+				{
+					"name": "机械开关设备检查",
+					"id": "mechanical switchgear inspection",
+					"enum": "GI_MECHANICAL_SWITCHGEAR_INSPECTION"
+				},
+				{
+					"name": "防雷措施检查",
+					"id": "lighting protection inspection",
+					"enum": "GI_LIGHTING_PROTECTION_INSPECTION"
+				},
+				{
+					"name": "防盗措施检查",
+					"id": "anti theft measure inspection",
+					"enum": "GI_ANTI_THEFT_MEASURE_INSPECTION"
+				},
+				{
+					"name": "供电设备断电控制功能检查",
+					"id": "cut off power supply func inspection",
+					"enum": "GI_CUT_OFF_POWER_SUPPLY_FUNC_INSPECTION"
+				},
+				{
+					"name": "锁紧装置检查",
+					"id": "locker inspection",
+					"enum": "GI_LOCKER_INSPECTION"
+				}
+			],
+			"enum": "EC_GENERAL_INSPECTION"
+		},
+		{
+			"name": "功能试验",
+			"id": "functional test",
+			"experiments": [
+				{
+					"name": "充电控制功能试验",
+					"id": "charging control function",
+					"enum": "FT_CHARGING_CONTROL_FUNCTION"
+				},
+				{
+					"name": "通信功能试验",
+					"id": "communication function",
+					"enum": "FT_COMMUNICATION_FUNCTION"
+				},
+				{
+					"name": "绝缘检测功能试验",
+					"id": "insulation detection function",
+					"enum": "FT_INSULATION_DETECTION_FUNCTION"
+				},
+				{
+					"name": "直流输出回路短路检测功能试验",
+					"id": "dc circuit short detection function",
+					"enum": "FT_DC_CIRCUIT_SHORT_DETECTION_FUNCTION"
+				},
+				{
+					"name": "车辆插头锁止功能试验",
+					"id": "vehicle connector locking function",
+					"enum": "FT_VEHICLE_CONNECTOR_LOCKING_FUNCTION"
+				},
+				{
+					"name": "预充电功能试验",
+					"id": "prepare charge function",
+					"enum": "FT_PREPARE_CHARGE_FUNCTION"
+				},
+				{
+					"name": "显示功能试验",
+					"id": "display function",
+					"enum": "FT_DISPLAY_FUNCTION"
+				},
+				{
+					"name": "输入功能试验",
+					"id": "input function",
+					"enum": "FT_INPUT_FUNCTION"
+				},
+				{
+					"name": "计量功能试验",
+					"id": "metering function",
+					"enum": "FT_METERING_FUNCTION"
+				},
+				{
+					"name": "急停功能试验",
+					"id": "emergency stop function",
+					"enum": "FT_EMERGENCY_STOP_FUNCTION"
+				}
+			],
+			"enum": "EC_FUNCTIONAL_TEST"
+		},
+		{
+			"name": "安全要求试验",
+			"id": "safty requirement",
+			"experiments": [
+				{
+					"name": "输入过压保护试验",
+					"id": "input over volt protection",
+					"enum": "SRT_INPUT_OVER_VOLT_PROTECTION"
+				},
+				{
+					"name": "输入欠压保护试验",
+					"id": "input under volt protection",
+					"enum": "SRT_INPUT_UNDER_VOLT_PROTECTION"
+				},
+				{
+					"name": "输出过压保护试验",
+					"id": "output over volt protection",
+					"enum": "SRT_OUTPUT_OVER_VOLT_PROTECTION"
+				},
+				{
+					"name": "输出短路保护试验",
+					"id": "output short protection",
+					"enum": "SRT_OUTPUT_SHORT_PROTECTION"
+				},
+				{
+					"name": "过温保护试验",
+					"id": "over temperature protection",
+					"enum": "SRT_OVER_TEMPERATURE_PROTECTION"
+				},
+				{
+					"name": "开门保护试验",
+					"id": "open door protection",
+					"enum": "SRT_OPEN_DOOR_PROTECTION"
+				},
+				{
+					"name": "启动急停装置试验",
+					"id": "emergency stop protection",
+					"enum": "SRT_EMERGENCY_STOP_PROTECTION"
+				},
+				{
+					"name": "输入电流过冲试验",
+					"id": "input current overshoot protection",
+					"enum": "SRT_INPUT_CURRENT_OVERSHOOT_PROTECTION"
+				},
+				{
+					"name": "蓄电池反接试验",
+					"id": "reverse battery connecor protection",
+					"enum": "SRT_REVERSE_BATTERY_CONNECOR_PROTECTION"
+				},
+				{
+					"name": "防逆流功能试验",
+					"id": "counter current protection",
+					"enum": "SRT_COUNTER_CURRENT_PROTECTION"
+				},
+				{
+					"name": "接触器粘连试验",
+					"id": "contactor sticking protection",
+					"enum": "SRT_CONTACTOR_STICKING_PROTECTION"
+				}
+			],
+			"enum": "EC_SAFTY_REQUIREMENT"
+		},
+		{
+			"name": "充电模式和连接方式检查",
+			"id": "charging mode and conn method",
+			"experiments": [
+				{
+					"name": "充电模式和连接方式检查",
+					"id": "charging mode and conn method",
+					"enum": "EC_CHARGING_MODE_AND_CONN_METHOD"
+				}
+			],
+			"enum": "EC_CHARGING_MODE_AND_CONN_METHOD"
+		},
+		{
+			"name": "充电连接装置及电缆检查",
+			"id": "conn dev and cable check",
+			"experiments": [
+				{
+					"name": "充电连接装置检查",
+					"id": "connection dev check",
+					"enum": "CDC_CONNECTION_DEV_CHECK"
+				},
+				{
+					"name": "电缆管理及贮存检查",
+					"id": "cable management and storage check",
+					"enum": "CDC_CABLE_MANAGEMENT_AND_STORAGE_CHECK"
+				}
+			],
+			"enum": "EC_CONN_DEV_AND_CABLE_CHECK"
+		},
+		{
+			"name": "电气隔离检查",
+			"id": "electrical isolation check",
+			"experiments": [
+				{
+					"name": "电气隔离检查",
+					"id": "electrical isolation check",
+					"enum": "EC_ELECTRICAL_ISOLATION_CHECK"
+				}
+			],
+			"enum": "EC_ELECTRICAL_ISOLATION_CHECK"
+		},
+		{
+			"name": "电击防护试验",
+			"id": "electric shock protect",
+			"experiments": [
+				{
+					"name": "直接接触防护试验",
+					"id": "direct contact protection",
+					"enum": "ESP_DIRECT_CONTACT_PROTECTION"
+				},
+				{
+					"name": "动力电源输入失电试验",
+					"id": "deal with power supply loss",
+					"enum": "ESP_DEAL_WITH_POWER_SUPPLY_LOSS"
+				}
+			],
+			"enum": "EC_ELECTRIC_SHOCK_PROTECT"
+		},
+		{
+			"name": "电气间隔和爬电距离试验",
+			"id": "creepage distances and clearances chk",
+			"experiments": [
+				{
+					"name": "电气间隔和爬电距离试验",
+					"id": "creepage distances and clearances chk",
+					"enum": "EC_CREEPAGE_DISTANCES_AND_CLEARANCES_CHK"
+				}
+			],
+			"enum": "EC_CREEPAGE_DISTANCES_AND_CLEARANCES_CHK"
+		},
+		{
+			"name": "绝缘性能试验",
+			"id": "insulation check",
+			"experiments": [
+				{
+					"name": "绝缘电阻试验",
+					"id": "insulation resistance",
+					"enum": "IC_INSULATION_RESISTANCE"
+				},
+				{
+					"name": "介电强度试验",
+					"id": "dielectric strength",
+					"enum": "IC_DIELECTRIC_STRENGTH"
+				},
+				{
+					"name": "冲击耐压试验",
+					"id": "impulse withstand volt",
+					"enum": "IC_IMPULSE_WITHSTAND_VOLT"
+				}
+			],
+			"enum": "EC_INSULATION_CHECK"
+		},
+		{
+			"name": "接地试验",
+			"id": "earth test",
+			"experiments": [
+				{
+					"name": "接地试验",
+					"id": "earth test",
+					"enum": "EC_EARTH_TEST"
+				}
+			],
+			"enum": "EC_EARTH_TEST"
+		},
+		{
+			"name": "充电输出试验",
+			"id": "charging output test",
+			"experiments": [
+				{
+					"name": "最大恒功率输出试验",
+					"id": "maximum constant power",
+					"enum": "COT_MAXIMUM_CONSTANT_POWER"
+				},
+				{
+					"name": "功率控制试验",
+					"id": "power control",
+					"enum": "COT_POWER_CONTROL"
+				},
+				{
+					"name": "稳流精度试验",
+					"id": "stabilize current accuracy",
+					"enum": "COT_STABILIZE_CURRENT_ACCURACY"
+				},
+				{
+					"name": "稳压精度试验",
+					"id": "stabilize volt accuracy",
+					"enum": "COT_STABILIZE_VOLT_ACCURACY"
+				},
+				{
+					"name": "电压纹波因数试验",
+					"id": "volt ripple factor",
+					"enum": "COT_VOLT_RIPPLE_FACTOR"
+				},
+				{
+					"name": "电流纹波试验",
+					"id": "current ripple parameter",
+					"enum": "COT_CURRENT_RIPPLE_PARAMETER"
+				},
+				{
+					"name": "输出电流设定误差试验",
+					"id": "current output accuracy",
+					"enum": "COT_CURRENT_OUTPUT_ACCURACY"
+				},
+				{
+					"name": "输出电压设定误差试验",
+					"id": "volt output accuracy",
+					"enum": "COT_VOLT_OUTPUT_ACCURACY"
+				},
+				{
+					"name": "限压特性试验",
+					"id": "volt limiting feature",
+					"enum": "COT_VOLT_LIMITING_FEATURE"
+				},
+				{
+					"name": "限流特性试验",
+					"id": "current limiting feature",
+					"enum": "COT_CURRENT_LIMITING_FEATURE"
+				},
+				{
+					"name": "输出电流停止速率试验",
+					"id": "output current stop rate",
+					"enum": "COT_OUTPUT_CURRENT_STOP_RATE"
+				},
+				{
+					"name": "启动输出过冲试验",
+					"id": "start output overshoot ctrl",
+					"enum": "COT_START_OUTPUT_OVERSHOOT_CTRL"
+				},
+				{
+					"name": "输出电流测量误差试验",
+					"id": "output cur measure accuracy",
+					"enum": "COT_OUTPUT_CUR_MEASURE_ACCURACY"
+				},
+				{
+					"name": "输出电压测量误差试验",
+					"id": "output volt measure accuracy",
+					"enum": "COT_OUTPUT_VOLT_MEASURE_ACCURACY"
+				},
+				{
+					"name": "测量值更新时间试验",
+					"id": "measure param update rate",
+					"enum": "COT_MEASURE_PARAM_UPDATE_RATE"
+				},
+				{
+					"name": "效率试验",
+					"id": "charging energy efficient",
+					"enum": "COT_CHARGING_ENERGY_EFFICIENT"
+				},
+				{
+					"name": "功率因数试验",
+					"id": "power factor",
+					"enum": "COT_POWER_FACTOR"
+				},
+				{
+					"name": "充电负荷突减载控制试验",
+					"id": "charging load drop ctrl",
+					"enum": "COT_CHARGING_LOAD_DROP_CTRL"
+				}
+			],
+			"enum": "EC_CHARGING_OUTPUT_TEST"
+		},
+		{
+			"name": "控制导引试验",
+			"id": "control guidance test",
+			"experiments": [
+				{
+					"name": "保护接地连续性试验",
+					"id": "earthing conductor disconnect",
+					"enum": "CGT_EARTHING_CONDUCTOR_DISCONNECT"
+				},
+				{
+					"name": "连接检测信号断开试验",
+					"id": "connect detection line break",
+					"enum": "CGT_CONNECT_DETECTION_LINE_BREAK"
+				},
+				{
+					"name": "输出冲击电流试验",
+					"id": "output current shock",
+					"enum": "CGT_OUTPUT_CURRENT_SHOCK"
+				},
+				{
+					"name": "蓄电池电压与通信报文不符试验",
+					"id": "battery volt frame disagree",
+					"enum": "CGT_BATTERY_VOLT_FRAME_DISAGREE"
+				},
+				{
+					"name": "蓄电池电压超过充电机范围试验",
+					"id": "battery volt out charger capacity",
+					"enum": "CGT_BATTERY_VOLT_OUT_CHARGER_CAPACITY"
+				},
+				{
+					"name": "蓄电池二重保护功能试验",
+					"id": "battery dual protection function",
+					"enum": "CGT_BATTERY_DUAL_PROTECTION_FUNCTION"
+				},
+				{
+					"name": "车辆最高允许充电总电压不匹配试验",
+					"id": "bad vehicle tolerable volt climax",
+					"enum": "CGT_BAD_VEHICLE_TOLERABLE_VOLT_CLIMAX"
+				},
+				{
+					"name": "充电需求大于电池参数试验",
+					"id": "charging request over battery spec",
+					"enum": "CGT_CHARGING_REQUEST_OVER_BATTERY_SPEC"
+				}
+			],
+			"enum": "EC_CONTROL_GUIDANCE_TEST"
+		},
+		{
+			"name": "互操作性测试",
+			"id": "interoperability experiment",
+			"experiments": [
+				{
+					"name": "连接确认测试",
+					"id": "connect confirm",
+					"enum": "IT_CONNECT_CONFIRM"
+				},
+				{
+					"name": "自检阶段测试",
+					"id": "self check",
+					"enum": "IT_SELF_CHECK"
+				},
+				{
+					"name": "充电准备就绪测试",
+					"id": "charge prepare",
+					"enum": "IT_CHARGE_PREPARE"
+				},
+				{
+					"name": "充电阶段测试",
+					"id": "charging phase",
+					"enum": "IT_CHARGING_PHASE"
+				},
+				{
+					"name": "正常充电结束测试",
+					"id": "normal charging endding",
+					"enum": "IT_NORMAL_CHARGING_ENDDING"
+				},
+				{
+					"name": "充电连接控制时序测试",
+					"id": "connect sequence ctrl",
+					"enum": "IT_CONNECT_SEQUENCE_CTRL"
+				},
+				{
+					"name": "通讯中断测试",
+					"id": "communication interrupt",
+					"enum": "IT_COMMUNICATION_INTERRUPT"
+				},
+				{
+					"name": "开关S断开测试",
+					"id": "binary s break",
+					"enum": "IT_BINARY_S_BREAK"
+				},
+				{
+					"name": "车辆接口断开测试",
+					"id": "vehicle connector break",
+					"enum": "IT_VEHICLE_CONNECTOR_BREAK"
+				},
+				{
+					"name": "输出电压超过车辆允许值测试",
+					"id": "output volt over vehicle permit",
+					"enum": "IT_OUTPUT_VOLT_OVER_VEHICLE_PERMIT"
+				},
+				{
+					"name": "绝缘故障测试",
+					"id": "insulation fault",
+					"enum": "IT_INSULATION_FAULT"
+				},
+				{
+					"name": "保护接地导体连续性丢失测试",
+					"id": "earthing conductor disconnect",
+					"enum": "IT_EARTHING_CONDUCTOR_DISCONNECT"
+				},
+				{
+					"name": "其他充电故障测试",
+					"id": "other charging fault",
+					"enum": "IT_OTHER_CHARGING_FAULT"
+				},
+				{
+					"name": "控制导引电压限值测试",
+					"id": "guide ctrl volt interactive",
+					"enum": "IT_GUIDE_CTRL_VOLT_INTERACTIVE"
+				}
+			],
+			"enum": "EC_INTEROPERABILITY_EXPERIMENT"
+		},
+		{
+			"name": "一致性测试",
+			"id": "conformance test",
+			"experiments": [],
+			"categories": [
+				{
+					"name": "低压辅助上电及充电握手阶段检验",
+					"id": "low voltage auxiliary power on and charging handshake phase inspection",
+					"experiments": [
+						{
+							"name": "DP1001",
+							"id": ""
+						},
+						{
+							"name": "DP1002",
+							"id": ""
+						},
+						{
+							"name": "DP1003",
+							"id": ""
+						},
+						{
+							"name": "DN1001",
+							"id": ""
+						},
+						{
+							"name": "DN1002",
+							"id": ""
+						},
+						{
+							"name": "DN1003",
+							"id": ""
+						},
+						{
+							"name": "DN1004",
+							"id": ""
+						}
+					]
+				},
+				{
+					"name": "参数配置阶段检验",
+					"id": "parameter configuration stage inspection",
+					"experiments": [
+						{
+							"name": "DP2001",
+							"id": ""
+						},
+						{
+							"name": "DP2002",
+							"id": ""
+						},
+						{
+							"name": "DP2003",
+							"id": ""
+						},
+						{
+							"name": "DN2001",
+							"id": ""
+						},
+						{
+							"name": "DN2002",
+							"id": ""
+						},
+						{
+							"name": "DN2003",
+							"id": ""
+						},
+						{
+							"name": "DN2004",
+							"id": ""
+						},
+						{
+							"name": "DN2005",
+							"id": ""
+						},
+						{
+							"name": "DN2006",
+							"id": ""
+						},
+						{
+							"name": "DN2007",
+							"id": ""
+						},
+						{
+							"name": "DN2008",
+							"id": ""
+						},
+						{
+							"name": "DN2009",
+							"id": ""
+						},
+						{
+							"name": "DN2010",
+							"id": ""
+						}
+					]
+				},
+				{
+					"name": "充电阶段检验",
+					"id": "charging phase inspection",
+					"experiments": [
+						{
+							"name": "DP3001",
+							"id": ""
+						},
+						{
+							"name": "DP3002",
+							"id": ""
+						},
+						{
+							"name": "DP3003",
+							"id": ""
+						},
+						{
+							"name": "DP3004",
+							"id": ""
+						},
+						{
+							"name": "DP3005",
+							"id": ""
+						},
+						{
+							"name": "DP3006",
+							"id": ""
+						},
+						{
+							"name": "DP3007",
+							"id": ""
+						},
+						{
+							"name": "DN3001",
+							"id": ""
+						},
+						{
+							"name": "DN3002",
+							"id": ""
+						},
+						{
+							"name": "DN3003",
+							"id": ""
+						},
+						{
+							"name": "DN3004",
+							"id": ""
+						},
+						{
+							"name": "DN3005",
+							"id": ""
+						},
+						{
+							"name": "DN3006",
+							"id": ""
+						},
+						{
+							"name": "DN3007",
+							"id": ""
+						},
+						{
+							"name": "DN3008",
+							"id": ""
+						},
+						{
+							"name": "DN3009",
+							"id": ""
+						},
+						{
+							"name": "DN3010",
+							"id": ""
+						}
+					]
+				},
+				{
+					"name": "充电结束阶段检验",
+					"id": "end of charging inspection",
+					"experiments": [
+						{
+							"name": "DP4001",
+							"id": ""
+						},
+						{
+							"name": "DP4002",
+							"id": ""
+						},
+						{
+							"name": "DN4001",
+							"id": ""
+						},
+						{
+							"name": "DN4002",
+							"id": ""
+						},
+						{
+							"name": "DN4003",
+							"id": ""
+						},
+						{
+							"name": "DN4004",
+							"id": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

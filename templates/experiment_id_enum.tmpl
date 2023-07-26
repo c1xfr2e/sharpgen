@@ -1,0 +1,13 @@
+#ifndef __EXPERIMENT_H__
+#define __EXPERIMENT_H__
+
+// 实验 ID
+enum ExperimentID {
+	{%- for cat in categories %}
+    {%- for ex in cat["experiments"] %}
+    {{"%-60s" | format(ex["id"])}} = {{cat["enum_start"] + loop.index}}, // {{ ex["name"] }}
+    {%- endfor %}
+	{%- endfor %}
+};
+
+#endif

@@ -1,0 +1,1727 @@
+{
+	"categories": [
+		{
+			"name": "一般检查",
+			"id": "GeneralInspection",
+			"experiments": [
+				{
+					"name": "外观检查",
+					"id": "VisualInspection"
+				},
+				{
+					"name": "标志检查",
+					"id": "SignTest"
+				},
+				{
+					"name": "基本构成检查",
+					"id": "BasicCompositionTest"
+				},
+				{
+					"name": "机械开关设备检查",
+					"id": "MechanicalSwitchgearInspection"
+				},
+				{
+					"name": "防雷措施检查",
+					"id": "InspectionOfLightningProtectionMeasures"
+				},
+				{
+					"name": "防盗措施检查",
+					"id": "TestTheAntiTheftMeasures"
+				},
+				{
+					"name": "供电设备断电控制功能检查",
+					"id": "InspectionOfPowerOffControlFunctionOfPowerSupplyEquipment"
+				},
+				{
+					"name": "锁紧装置检查",
+					"id": "LockingDeviceInspection"
+				}
+			]
+		},
+		{
+			"name": "功能试验",
+			"id": "FunctionTest",
+			"experiments": [
+				{
+					"name": "充电控制功能试验",
+					"id": "ChargingControlFunctionTest"
+				},
+				{
+					"name": "通信功能试验",
+					"id": "CommunicationFunctionTest"
+				},
+				{
+					"name": "绝缘检测功能试验",
+					"id": "InsulationDetectionFunctionTest"
+				},
+				{
+					"name": "直流输出回路短路检测功能试验",
+					"id": "ShortCircuitDetectionFunctionTestOfDcOutputCircuit"
+				},
+				{
+					"name": "车辆插头锁止功能试验",
+					"id": "VehicleConnectorLockingFunctionTest"
+				},
+				{
+					"name": "预充电功能试验",
+					"id": "PreChargeFunctionTest"
+				},
+				{
+					"name": "显示功能试验",
+					"id": "DisplayFunctionTest"
+				},
+				{
+					"name": "输入功能试验",
+					"id": "InputFunctionTest"
+				},
+				{
+					"name": "计量功能试验",
+					"id": "MeteringFunctionTest"
+				},
+				{
+					"name": "急停功能试验",
+					"id": "EmergencyStopFunctionTest"
+				}
+			]
+		},
+		{
+			"name": "安全要求试验",
+			"id": "SafetyRequirementsTest",
+			"experiments": [
+				{
+					"name": "输入过压保护试验",
+					"id": "InputOvervoltageProtectionTest"
+				},
+				{
+					"name": "输入欠压保护试验",
+					"id": "InputUndervoltageProtectionTest"
+				},
+				{
+					"name": "输出过压保护试验",
+					"id": "OutputOvervoltageProtectionTest"
+				},
+				{
+					"name": "输出短路保护试验",
+					"id": "OutputShortCircuitProtectionTest"
+				},
+				{
+					"name": "过温保护试验",
+					"id": "OverTemperatureProtectionTest"
+				},
+				{
+					"name": "开门保护试验",
+					"id": "DoorOpeningProtectionTest"
+				},
+				{
+					"name": "启动急停装置试验",
+					"id": "TestOfStartupEmergencyStopDevice"
+				},
+				{
+					"name": "输入电流过冲试验",
+					"id": "InputCurrentOvershootTest"
+				},
+				{
+					"name": "蓄电池反接试验",
+					"id": "BatteryReverseConnectionTest"
+				},
+				{
+					"name": "防逆流功能试验",
+					"id": "AntiReverseFlowFunctionTest"
+				},
+				{
+					"name": "接触器粘连试验",
+					"id": "ContactorStickingTest"
+				}
+			]
+		},
+		{
+			"name": "充电模式和连接方式检查",
+			"id": "ChargingModeAndConnectionTest",
+			"experiments": [
+				{
+					"name": "充电模式和连接方式检查",
+					"id": "ChargingModeAndConnectionTest"
+				}
+			]
+		},
+		{
+			"name": "充电连接装置及电缆检查",
+			"id": "InspectionOfChargingConnectionDeviceAndCable",
+			"experiments": [
+				{
+					"name": "充电连接装置检查",
+					"id": "InspectionOfChargingConnectionDevice"
+				},
+				{
+					"name": "电缆管理及贮存检查",
+					"id": "CableManagementAndStorageInspection"
+				}
+			]
+		},
+		{
+			"name": "电气隔离检查",
+			"id": "ElectricalIsolationTest",
+			"experiments": [
+				{
+					"name": "电气隔离检查",
+					"id": "ElectricalIsolationTest"
+				}
+			]
+		},
+		{
+			"name": "电击防护试验",
+			"id": "ElectricShockProtectionTest",
+			"experiments": [
+				{
+					"name": "直接接触防护试验",
+					"id": "DirectContactProtectionTest"
+				},
+				{
+					"name": "动力电源输入失电试验",
+					"id": "PowerLossTestOfPowerSupplyInput"
+				}
+			]
+		},
+		{
+			"name": "电气间隔和爬电距离试验",
+			"id": "ElectricalSeparationAndCreepageDistanceTest",
+			"experiments": [
+				{
+					"name": "电气间隔和爬电距离试验",
+					"id": "ElectricalSeparationAndCreepageDistanceTest"
+				}
+			]
+		},
+		{
+			"name": "绝缘性能试验",
+			"id": "InsulationPerformanceTest",
+			"experiments": [
+				{
+					"name": "绝缘电阻试验",
+					"id": "InsulationResistanceTest"
+				},
+				{
+					"name": "介电强度试验",
+					"id": "DielectricStrengthTest"
+				},
+				{
+					"name": "冲击耐压试验",
+					"id": "ImpulseWithstandVoltageTest"
+				}
+			]
+		},
+		{
+			"name": "接地试验",
+			"id": "GroundingTest",
+			"experiments": [
+				{
+					"name": "接地试验",
+					"id": "GroundingTest"
+				}
+			]
+		},
+		{
+			"name": "充电输出试验",
+			"id": "ChargingOutputTest",
+			"experiments": [
+				{
+					"name": "最大恒功率输出试验",
+					"id": "MaximumConstantPowerOutputTest"
+				},
+				{
+					"name": "功率控制试验",
+					"id": "PowerControlTest"
+				},
+				{
+					"name": "稳流精度试验",
+					"id": "SteadyFlowAccuracyTest"
+				},
+				{
+					"name": "稳压精度试验",
+					"id": "SteadyVoltageAccuracyTest"
+				},
+				{
+					"name": "电压纹波因数试验",
+					"id": "VoltageRippleFactorTest"
+				},
+				{
+					"name": "电流纹波试验",
+					"id": "CurrentRippleTest"
+				},
+				{
+					"name": "输出电流设定误差试验",
+					"id": "OutputCurrentSettingErrorTest"
+				},
+				{
+					"name": "输出电压设定误差试验",
+					"id": "OutputVoltageSettingErrorTest"
+				},
+				{
+					"name": "限压特性试验",
+					"id": "VoltageLimitingCharacteristicTest"
+				},
+				{
+					"name": "限流特性试验",
+					"id": "CurrentLimitingCharacteristicTest"
+				},
+				{
+					"name": "输出电流停止速率试验",
+					"id": "OutputCurrentStopRateTest"
+				},
+				{
+					"name": "启动输出过冲试验",
+					"id": "StartOutputOvershootTest"
+				},
+				{
+					"name": "输出电流测量误差试验",
+					"id": "OutputCurrentMeasurementErrorTest"
+				},
+				{
+					"name": "输出电压测量误差试验",
+					"id": "OutputVoltageMeasurementErrorTest"
+				},
+				{
+					"name": "测量值更新时间试验",
+					"id": "MeasuredValueUpdateTimeTest"
+				},
+				{
+					"name": "效率试验",
+					"id": "EfficiencyTest"
+				},
+				{
+					"name": "功率因数试验",
+					"id": "PowerFactorTest"
+				},
+				{
+					"name": "充电负荷突减载控制试验",
+					"id": "SuddenLoadReductionControlTestOfChargingLoad"
+				}
+			]
+		},
+		{
+			"name": "控制导引试验",
+			"id": "ControlGuidanceTest",
+			"experiments": [
+				{
+					"name": "保护接地连续性试验",
+					"id": "ProtectiveEarthContinuityTest"
+				},
+				{
+					"name": "连接检测信号断开试验",
+					"id": "DisconnectionTestOfConnectionDetectionSignal"
+				},
+				{
+					"name": "输出冲击电流试验",
+					"id": "OutputImpulseCurrentTest"
+				},
+				{
+					"name": "蓄电池电压与通信报文不符试验",
+					"id": "TestForInconsistencyBetweenBatteryVoltageAndCommunicationMessage"
+				},
+				{
+					"name": "蓄电池电压超过充电机范围试验",
+					"id": "TestOfBatteryVoltageExceedingTheRangeOfCharger"
+				},
+				{
+					"name": "蓄电池二重保护功能试验",
+					"id": "DualProtectionFunctionTestOfBattery"
+				},
+				{
+					"name": "车辆最高允许充电总电压不匹配试验",
+					"id": "MismatchTestOfMaximumAllowableTotalChargingVoltageOfVehicle"
+				},
+				{
+					"name": "充电需求大于电池参数试验",
+					"id": "ChargingDemandIsGreaterThanBatteryParameterTest"
+				}
+			]
+		},
+		{
+			"name": "互操作性测试",
+			"id": "InteroperabilityTest",
+			"experiments": [
+				{
+					"name": "连接确认测试",
+					"id": "ConnectionConfirmationTest"
+				},
+				{
+					"name": "自检阶段测试",
+					"id": "SelfTestPhaseTest"
+				},
+				{
+					"name": "充电准备就绪测试",
+					"id": "ReadyToChargeTest"
+				},
+				{
+					"name": "充电阶段测试",
+					"id": "ChargingPhaseTest"
+				},
+				{
+					"name": "正常充电结束测试",
+					"id": "EndOfNormalChargeTest"
+				},
+				{
+					"name": "充电连接控制时序测试",
+					"id": "ChargingConnectionControlTimingTest"
+				},
+				{
+					"name": "通讯中断测试",
+					"id": "CommunicationInterruptionTest"
+				},
+				{
+					"name": "开关S断开测试",
+					"id": "SwitchSOffTest"
+				},
+				{
+					"name": "车辆接口断开测试",
+					"id": "VehicleInterfaceDisconnectTest"
+				},
+				{
+					"name": "输出电压超过车辆允许值测试",
+					"id": "OutputVoltageExceedsTheAllowableValueOfTheVehicle"
+				},
+				{
+					"name": "绝缘故障测试",
+					"id": "InsulationFaultTest"
+				},
+				{
+					"name": "保护接地导体连续性丢失测试",
+					"id": "ProtectiveEarthConductorContinuityLossTest"
+				},
+				{
+					"name": "其他充电故障测试",
+					"id": "OtherChargingFaultTests"
+				},
+				{
+					"name": "控制导引电压限值测试",
+					"id": "ControlPilotVoltageLimitTest"
+				}
+			]
+		},
+		{
+			"name": "一致性测试",
+			"id": "ConformanceTest",
+			"experiments": [],
+			"categories": [
+				{
+					"name": "低压辅助上电及充电握手阶段检验",
+					"id": "InspectionOfLowVoltageAuxiliaryPowerOnAndChargingHandshakePhase",
+					"experiments": [
+						{
+							"name": "DP1001",
+							"id": "DP1001"
+						},
+						{
+							"name": "DP1002",
+							"id": "DP1002"
+						},
+						{
+							"name": "DP1003",
+							"id": "DP1003"
+						},
+						{
+							"name": "DN1001",
+							"id": "DN1001"
+						},
+						{
+							"name": "DN1002",
+							"id": "DN1002"
+						},
+						{
+							"name": "DN1003",
+							"id": "DN1003"
+						},
+						{
+							"name": "DN1004",
+							"id": "DN1004"
+						}
+					]
+				},
+				{
+					"name": "参数配置阶段检验",
+					"id": "ParameterConfigurationStageInspection",
+					"experiments": [
+						{
+							"name": "DP2001",
+							"id": "DP2001"
+						},
+						{
+							"name": "DP2002",
+							"id": "DP2002"
+						},
+						{
+							"name": "DP2003",
+							"id": "DP2003"
+						},
+						{
+							"name": "DN2001",
+							"id": "DN2001"
+						},
+						{
+							"name": "DN2002",
+							"id": "DN2002"
+						},
+						{
+							"name": "DN2003",
+							"id": "DN2003"
+						},
+						{
+							"name": "DN2004",
+							"id": "DN2004"
+						},
+						{
+							"name": "DN2005",
+							"id": "DN2005"
+						},
+						{
+							"name": "DN2006",
+							"id": "DN2006"
+						},
+						{
+							"name": "DN2007",
+							"id": "DN2007"
+						},
+						{
+							"name": "DN2008",
+							"id": "DN2008"
+						},
+						{
+							"name": "DN2009",
+							"id": "DN2009"
+						},
+						{
+							"name": "DN2010",
+							"id": "DN2010"
+						}
+					]
+				},
+				{
+					"name": "充电阶段检验",
+					"id": "ChargingPhaseInspection",
+					"experiments": [
+						{
+							"name": "DP3001",
+							"id": "DP3001",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3002",
+							"id": "DP3002",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3003",
+							"id": "DP3003",
+							"output_items": [
+								{
+									"cn": "1",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "2",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "3",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "4",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "5",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "6",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3004",
+							"id": "DP3004",
+							"output_items": [
+								{
+									"cn": "1",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "2",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "3",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "4",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3005",
+							"id": "DP3005",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3006",
+							"id": "DP3006",
+							"output_items": [
+								{
+									"cn": "1",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "2",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP3007",
+							"id": "DP3007",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3001",
+							"id": "DN3001",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3002",
+							"id": "DN3002",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3003",
+							"id": "DN3003",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3004",
+							"id": "DN3004",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3005",
+							"id": "DN3005",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3006",
+							"id": "DN3006",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3007",
+							"id": "DN3007",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3008",
+							"id": "DN3008",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3009",
+							"id": "DN3009",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN3010",
+							"id": "DN3010",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "充电结束阶段检验",
+					"id": "InspectionAtTheEndOfCharging",
+					"experiments": [
+						{
+							"name": "DP4001",
+							"id": "DP4001",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DP4002",
+							"id": "DP4002",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN4001",
+							"id": "DN4001",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN4002",
+							"id": "DN4002",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN4003",
+							"id": "DN4003",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						},
+						{
+							"name": "DN4004",
+							"id": "DN4004",
+							"output_items": [
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								},
+								{
+									"cn": "",
+									"en": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

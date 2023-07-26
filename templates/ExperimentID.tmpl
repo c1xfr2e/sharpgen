@@ -1,0 +1,10 @@
+﻿
+namespace Client.Experiment
+{
+    public enum ExperimentID
+    {
+        {%- for ex in experiments %}
+        {{ex["name"]}} = {{loop.index}},
+        {%- endfor %}
+    }
+}

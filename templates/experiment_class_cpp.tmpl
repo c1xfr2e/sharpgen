@@ -1,0 +1,12 @@
+#include "{{class_name}}.h"
+
+{{class_name}}::{{class_name}}() :
+    TestItemBase({{cat_id_enum}}, int({{exp_id_enum}}), {%- if sub_cat_id_enum %} int({{sub_cat_id_enum}}) {% else %} -1 {%- endif %})
+{
+
+}
+
+{{class_name}}::~{{class_name}}()
+{
+
+}

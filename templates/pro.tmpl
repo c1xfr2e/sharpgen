@@ -1,0 +1,13 @@
+HEADERS
+	{%- for cat in categories %}
+	{%- for exp in cat["experiments"] %}
+	Experiment/{{cat["capword"]}}/{{exp["capword"]}}.h \
+	{%- endfor %}
+	{%- endfor %}
+
+SOURCES
+	{%- for cat in categories %}
+	{%- for exp in cat["experiments"] %}
+	Experiment/{{cat["capword"]}}/{{exp["capword"]}}.cpp \
+	{%- endfor %}
+	{%- endfor %}

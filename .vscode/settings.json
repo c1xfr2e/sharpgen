@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"*.json": "jsonc",
+		"*.ui": "xml",
+		"*.tmpl": "cpp"
+	},
+    "editor.fontFamily": "MonoLisa",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+}

@@ -1,0 +1,15 @@
+{
+	"code": 0,
+	"data": {
+		"result": {
+			"from": "cn",
+			"to": "en",
+			"trans_result": {
+				"dst": "How are you",
+				"src": "你好吗"
+			}
+		}
+	},
+	"message": "success",
+	"sid": "its0008f1f2@dx182d4012040a11c902"
+}

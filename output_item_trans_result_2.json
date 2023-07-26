@@ -1,0 +1,1214 @@
+{
+	"categories": [
+		{
+			"name": "充电阶段检验",
+			"id": "ChargingPhaseInspection",
+			"experiments": [
+				{
+					"name": "DP3001",
+					"id": "DP3001",
+					"output_items": [
+						{
+							"cn": "检查充电机使用传输协议接收BCS正确性",
+							"en": "Check whether the charger uses the transmission protocol to receive the BCS correctly"
+						},
+						{
+							"cn": "检查CCS报文发送起始条件正确性",
+							"en": "Check the correctness of CCS message sending start condition"
+						},
+						{
+							"cn": "检查CCS报文ID正确性",
+							"en": "Check the correctness of CCS message ID"
+						},
+						{
+							"cn": "检查CCS报文数据长度正确性",
+							"en": "Check the correctness of CCS message data length"
+						},
+						{
+							"cn": "检查CCS报文发送周期正确性",
+							"en": "Check the correctness of CCS message sending period"
+						},
+						{
+							"cn": "充电机传输协议功能接收BCS报文",
+							"en": "Charger transmission protocol function receives BCS message"
+						},
+						{
+							"cn": "充电机发送SPN2830=0xAA的CRO报文",
+							"en": "Charger sends CRO message of SPN2830 = 0xAA"
+						},
+						{
+							"cn": "充电机50ms的周期发送CCS报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.3的要求，报文长度7个字节",
+							"en": "The charger sends CCS message at a cycle of 50ms, the message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.3 in GB/T 27930 — 2015, and the message length is 7 bytes"
+						}
+					]
+				},
+				{
+					"name": "DP3002",
+					"id": "DP3002",
+					"output_items": [
+						{
+							"cn": "检查充电机接收BMS请求发送消息RTS报文正确性（BMV报文）",
+							"en": "Check the correctness of the RTS message (BMV message) received by the charger from the BMS."
+						},
+						{
+							"cn": "检查充电机接收BMS请求发送消息RTS报文正确性（BMT报文）",
+							"en": "Check the correctness of the RTS message (BMT message) received by the charger from the BMS."
+						},
+						{
+							"cn": "检查充电机接收BMS请求发送消息RTS报文正确性（BSP报文）",
+							"en": "Check the correctness of RTS message (BSP message) received by the charger from the BMS."
+						}
+					]
+				},
+				{
+					"name": "DP3003",
+					"id": "DP3003",
+					"output_items": [
+						{
+							"cn": "1 检查充电机接收单体动力蓄电池电压异常的BSM（SPN3090=01或者SPN3090=10）的响应",
+							"en": "1 Check whether the charger receives the response of BSM (SPN3090 = 01 or SPN3090 = 10) with abnormal voltage of single power battery."
+						},
+						{
+							"cn": "1.1 检查CST报文ID正确性",
+							"en": "1.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "1.2 检查CST报文数据长度正确性",
+							"en": "1.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "1.3 检查CST报文发送周期正确性",
+							"en": "1.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "1.4 检查CST报文发送内容正确性",
+							"en": "1.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "2 检查充电机接收整车动力蓄电池荷电状态SOC异常的BSM（SPN3091=01或者SPN3091=10）报文的响应",
+							"en": "2. Check the response of the charger to the BSM (SPN3091 = 01 or SPN3091 = 10) message indicating that the SOC of the vehicle power battery is abnormal."
+						},
+						{
+							"cn": "2.1 检查CST报文ID正确性",
+							"en": "2.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "2.2 检查CST报文数据长度正确性",
+							"en": "2.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "2.3 检查CST报文发送周期正确性",
+							"en": "2.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "2.4 检查CST报文发送内容正确性",
+							"en": "2.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "3 检查充电机接收动力蓄电池充电电流异常的BSM（SPN3092=01）报文的响应",
+							"en": "3 Check the response of the charger to the BSM (SPN3092 = 01) message indicating that the charging current of the traction battery is abnormal"
+						},
+						{
+							"cn": "3.1 检查CST报文ID正确性",
+							"en": "3.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "3.2 检查CST报文数据长度正确性",
+							"en": "3.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "3.3 检查CST报文发送周期正确性",
+							"en": "3.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "3.4 检查CST报文发送内容正确性",
+							"en": "3.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "4 检查充电机接收动力蓄电池温度异常的BSM（SPN3093=01）报文的响应",
+							"en": "4 Check the response of the charger to the BSM (SPN3093 = 01) message indicating abnormal temperature of the power battery."
+						},
+						{
+							"cn": "4.1 检查CST报文ID正确性",
+							"en": "4.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "4.2 检查CST报文数据长度正确性",
+							"en": "4.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "4.3 检查CST报文发送周期正确性",
+							"en": "4.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "4.4 检查CST报文发送内容正确性",
+							"en": "4.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "5 检查充电机接收动力蓄电池绝缘状态异常的BSM（SPN3094=01）报文的响应",
+							"en": "5 Check the response of the charger to the BSM (SPN3094 = 01) message indicating that the insulation status of the power battery is abnormal."
+						},
+						{
+							"cn": "5.1 检查CST报文ID正确性",
+							"en": "5.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "5.2 检查CST报文数据长度正确性",
+							"en": "5.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "5.3 检查CST报文发送周期正确性",
+							"en": "5.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "5.4 检查CST报文发送内容正确性",
+							"en": "5.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "6 检查充电机接收动力蓄电池输出连接器连接状态异常的BSM（SPN3095=01）报文的响应",
+							"en": "6 Check the response of the charger to the BSM (SPN3095 = 01) message indicating that the connection status of the power battery output connector is abnormal."
+						},
+						{
+							"cn": "6.1 检查CST报文ID正确性",
+							"en": "6.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "6.2 检查CST报文数据长度正确性",
+							"en": "6.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "6.3 检查CST报文发送周期正确性",
+							"en": "6.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "6.4 检查CST报文发送内容正确性",
+							"en": "6.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "a）充电机发送CCS报文，同时停止电力输出，并10ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "A) The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						},
+						{
+							"cn": "b）充电机发送CCS报文，同时停止电力输出，并10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "B) The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						},
+						{
+							"cn": "c）充电机发送CCS报文，同时停止电力输出，并10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						},
+						{
+							"cn": "d）充电机发送CCS报文，同时停止电力输出，并10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "D) The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						},
+						{
+							"cn": "e）充电机发送CCS报文，同时停止电力输出，并10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "E) The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						},
+						{
+							"cn": "f）充电机发送CCS报文，同时停止电力输出，并10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节。",
+							"en": "F) The charger sends CCS message, stops power output at the same time, and sends CST message at a cycle of 10 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015, and the message length is 4 bytes."
+						}
+					]
+				},
+				{
+					"name": "DP3004",
+					"id": "DP3004",
+					"output_items": [
+						{
+							"cn": "1 检查充电机接收动力蓄电池充电电流不可信状态的BSM（SPN3092=10）报文处理正确性",
+							"en": "1. Check whether the BSM (SPN3092 = 10) message received by the charger in the unreliable state of the charging current of the power battery is processed correctly."
+						},
+						{
+							"cn": "1.1 检查CCS报文ID正确性",
+							"en": "1.1 Check the correctness of CCS message ID"
+						},
+						{
+							"cn": "1.2 检查CCS报文数据长度正确性",
+							"en": "1.2 Check the correctness of CCS message data length"
+						},
+						{
+							"cn": "1.3 检查CCS报文发送周期正确性",
+							"en": "1.3 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "2 检查充电机接收动力蓄电池温度不可信状态的BSM（SPN3093=10）报文处理正确性",
+							"en": "2. Check whether the BSM (SPN3093 = 10) message received by the charger in the unreliable state of the battery temperature is processed correctly."
+						},
+						{
+							"cn": "2.1 检查CCS报文ID正确性",
+							"en": "2.1 Check the correctness of CCS message ID"
+						},
+						{
+							"cn": "2.2 检查CCS报文数据长度正确性",
+							"en": "2.2 Check the correctness of CCS message data length"
+						},
+						{
+							"cn": "2.3 检查CCS报文发送周期正确性",
+							"en": "2.3 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "3 检查充电机接收动力蓄电池绝缘状态不可信状态的BSM（SPN3094=10）",
+							"en": "3 Check whether the charger receives BSM (SPN3094 = 10) with unreliable insulation state of traction battery."
+						},
+						{
+							"cn": "3.1 检查CCS报文ID正确性",
+							"en": "3.1 Check the correctness of CCS message ID"
+						},
+						{
+							"cn": "3.2 检查CCS报文数据长度正确性",
+							"en": "3.2 Check the correctness of CCS message data length"
+						},
+						{
+							"cn": "3.3 检查CCS报文发送周期正确性",
+							"en": "3.3 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "4 检查充电机接收动力蓄电池输出连接器连接状态不可信状态的BSM（SPN3095=10）报文处理正确性",
+							"en": "4. Check whether the charger receives the BSM (SPN3095 = 10) message with unreliable connection status of the output connector of the power storage battery and processes it correctly."
+						},
+						{
+							"cn": "4.1 检查CCS报文ID正确性",
+							"en": "4.1 Check the correctness of CCS message ID"
+						},
+						{
+							"cn": "4.2 检查CCS报文数据长度正确性",
+							"en": "4.2 Check the correctness of CCS message data length"
+						},
+						{
+							"cn": "4.3 检查CCS报文发送周期正确性",
+							"en": "4.3 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "a）按BMS需求输出，同时50 ms的周期发送CCS报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.3的要求，报文长度7个字节。",
+							"en": "A) Output according to the requirements of BMS, and send CCS message at a cycle of 50 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.3 in GB/T 27930 — 2015. The message length is 7 bytes."
+						},
+						{
+							"cn": "b）按BMS需求输出，同时50 ms的周期发送CCS报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.3的要求，报文长度7个字节。",
+							"en": "B) Output according to the requirements of BMS, and send CCS message at a cycle of 50 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.3 in GB/T 27930 — 2015, and the message length is 7 bytes."
+						},
+						{
+							"cn": "c）按BMS需求输出，同时50 ms的周期发送CCS报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.3的要求，报文长度7个字节。",
+							"en": "C) Output according to the requirements of BMS, and send CCS message at a cycle of 50 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.3 in GB/T 27930 — 2015, and the message length is 7 bytes."
+						},
+						{
+							"cn": "d）按BMS需求输出，同时50 ms的周期发送CCS报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.3的要求，报文长度7个字节。",
+							"en": "D) Output according to the requirements of BMS, and send CCS message at a cycle of 50 ms. The message format, content and cycle are in accordance with the requirements of 9.3 and 10.3.3 in GB/T 27930 — 2015, and the message length is 7 bytes."
+						}
+					]
+				},
+				{
+					"name": "DP3005",
+					"id": "DP3005",
+					"output_items": [
+						{
+							"cn": "1 检查充电暂停充电过程中通信状态",
+							"en": "1 Check the communication status during charging pause charging"
+						},
+						{
+							"cn": "2 检查暂停充电过程中充电机输出状态",
+							"en": "2 Check the output status of the charger during charging suspension"
+						},
+						{
+							"cn": "3 检查充电机恢复充电正确性",
+							"en": "3. Check whether the charger recovers the charging."
+						},
+						{
+							"cn": "4 检查CST发送起始条件正确性",
+							"en": "4 Check the correctness of CST sending start condition"
+						},
+						{
+							"cn": "5 检查CST报文ID正确性",
+							"en": "5 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "6 检查CST报文数据长度正确性",
+							"en": "6 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "7 检查CST报文发送周期正确性",
+							"en": "7 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "8 检查CST报文发送内容正确性",
+							"en": "8. Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）充电机 暂停输出电流，测试系统和充电机按充电流程正常通信；",
+							"en": "1) The charger suspends the output current, and the test system and the charger communicate normally according to the charging process;"
+						},
+						{
+							"cn": "2）等待时间10 min内，接收到测试系统中报文SPN3090—SPN3095均为00（电池状态正常），且SPN3096为01（允许充电）时，充电机恢复充电且冲击电流满足GB/T 18487.1—2015中9.7要求；",
+							"en": "2) When SPN3090 — SPN3095 is 00 (battery status is normal) and SPN3096 is 01 (charging is allowed) in the test system within 10 minutes, the charger recovers charging and the impact current meets the requirements of 9.7 in GB/T 18487. 1 — 2015;"
+						},
+						{
+							"cn": "3）等待时间ms，充电机中止充电，按10 ms的周期发送CST报文，报文格式、内容和周期",
+							"en": "3) Wait for ms, the charger will stop charging and send CST message according to the cycle of 10 ms, message format, content and cycle"
+						}
+					]
+				},
+				{
+					"name": "DP3006",
+					"id": "DP3006",
+					"output_items": [
+						{
+							"cn": "1 检查充电机接收BMS中止充电原因",
+							"en": "1. Check the reason why the charger receives the suspension of BMS charging"
+						},
+						{
+							"cn": "1.1 检查CST报文ID正确性",
+							"en": "1.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "1.2 检查CST报文数据长度正确性",
+							"en": "1.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "1.3 检查CST报文发送周期正确性",
+							"en": "1.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "1.4 检查CST报文发送内容正确性",
+							"en": "1.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "2 检查充电机接收BMS中止充电故障原因",
+							"en": "2. Check the reason for the charger receiving the BMS stopping charging fault"
+						},
+						{
+							"cn": "2.1 检查CST报文ID正确性",
+							"en": "2.1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "2.2 检查CST报文数据长度正确性",
+							"en": "2.2 Check the correctness of CST message data length"
+						},
+						{
+							"cn": "2.3 检查CST报文发送周期正确性",
+							"en": "2.3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "2.4 检查CST报文发送内容正确性",
+							"en": "2.4 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "a）充电机接收到BST报文，发送CCS报文，10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节，同时停止电力输出。",
+							"en": "A) The charger receives the BST message, sends the CCS message, and sends the CST message at a cycle of 10 ms. The format, content and cycle of the message are in accordance with the requirements of 9.3 and 10.3.9 in GB/T 27930 — 2015. The length of the message is 4 bytes, and the power output is stopped."
+						},
+						{
+							"cn": "b）充电机接收到BST报文，发送CCS报文，10 ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015中9.3和10.3.9的要求，报文长度4个字节，同时停止电力输出。",
+							"en": "B) After receiving the BST message, the charger sends CCS message and CST message at the cycle of 10 ms, with the format, content and cycle of the message as required in 9.3 and 10.3.9 of GB/T 27930 — 2015. The length of the message is 4 bytes, and the power output is stopped."
+						}
+					]
+				},
+				{
+					"name": "DP3007",
+					"id": "DP3007",
+					"output_items": [
+						{
+							"cn": "1 检查CST报文ID正确性",
+							"en": "1 Check the correctness of CST message ID"
+						},
+						{
+							"cn": "2 检查CST报文数据长度正确性",
+							"en": "2. Check the correctness of CST message data length"
+						},
+						{
+							"cn": "3 检查CST报文发送周期正确性",
+							"en": "3 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "4 检查CST报文发送内容正确性",
+							"en": "4. Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）充电机10ms的周期发送CST报文，报文格式、内容和周期GB/T 27930—2015 9.3和10.3.9的要求，报文长度4个字节，同时停止电力输出。",
+							"en": "1) The charger sends the CST message at the cycle of 10 ms, the format, content and cycle of the message are in accordance with the requirements of GB/T 27930 — 2015 9.3 and 10.3.9, the length of the message is 4 bytes, and the power output is stopped."
+						}
+					]
+				},
+				{
+					"name": "DN3001",
+					"id": "DN3001",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCS报文超时时间",
+							"en": "1 Check whether the charger judges the timeout time of BCS message"
+						},
+						{
+							"cn": "2 检查SPN3924=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3924 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CRO报文发送周期正确性",
+							"en": "6 Check the correctness of CRO message sending cycle"
+						},
+						{
+							"cn": "7 检查CRO报文发送ID正确性",
+							"en": "7 Check the correctness of sending ID of CRO message"
+						},
+						{
+							"cn": "8 检查CRO报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CRO message"
+						},
+						{
+							"cn": "9 检查CRO报文发送数据域正确性",
+							"en": "9. Check the correctness of CRO message sending data field"
+						},
+						{
+							"cn": "1）自首次发送SPN2830=0xAA的CRO报文起ms充电机250 ms的周期发送该报文，报文格式、内容和周期GBT 27930—2015中9.2和10.2.5的要求；",
+							"en": "1) When the CRO message of SPN2830 = 0 xAA is sent for the first time, the message shall be sent at a cycle of 250 ms by the charger, and the format, content and cycle of the message shall meet the requirements of 9.2 and 10.2.5 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms，充电机发送SPN3924=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) When ms is exceeded, the charger sends SPN3924 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3002",
+					"id": "DN3002",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCL报文超时时间",
+							"en": "1 Check the charger to judge the timeout time of BCL message"
+						},
+						{
+							"cn": "2 检查SPN3925=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3925 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CRO报文发送周期正确性",
+							"en": "6 Check the correctness of CRO message sending cycle"
+						},
+						{
+							"cn": "7 检查CRO报文发送ID正确性",
+							"en": "7 Check the correctness of sending ID of CRO message"
+						},
+						{
+							"cn": "8 检查CRO报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CRO message"
+						},
+						{
+							"cn": "9 检查CRO报文发送数据域正确性",
+							"en": "9. Check the correctness of CRO message sending data field"
+						},
+						{
+							"cn": "10 检查充电机使用传输协议接收BCS正确性",
+							"en": "10 Check whether the charger uses the transmission protocol to receive the BCS correctly"
+						},
+						{
+							"cn": "1）充电机传输协议功能接收BCS报文；",
+							"en": "1) Charger transmission protocol function receives BCS message;"
+						},
+						{
+							"cn": "2）自首次发送SPN2830=0xAA的CRO报文起ms充电机250 ms的周期发送该报文，报文格式、内容和周期GBT 27930—2015中9.2和10.2.5的要求。",
+							"en": "2) Since the CRO message of SPN2830 = 0 xAA is sent for the first time, the message shall be sent at a cycle of 250 ms by the charger, and the format, content and cycle of the message shall meet the requirements of 9.2 and 10.2.5 in GBT 27930 — 2015."
+						},
+						{
+							"cn": "3）超过ms，充电机发送SPN3925=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "3) When ms is exceeded, the charger sends SPN3925 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3003",
+					"id": "DN3003",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCS报文超时时间",
+							"en": "1 Check whether the charger judges the timeout time of BCS message"
+						},
+						{
+							"cn": "2 检查SPN3924=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3924 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CRO报文发送周期正确性",
+							"en": "6 Check the correctness of CRO message sending cycle"
+						},
+						{
+							"cn": "7 检查CRO报文发送ID正确性",
+							"en": "7 Check the correctness of sending ID of CRO message"
+						},
+						{
+							"cn": "8 检查CRO报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CRO message"
+						},
+						{
+							"cn": "9 检查CRO报文发送数据域正确性",
+							"en": "9. Check the correctness of CRO message sending data field"
+						},
+						{
+							"cn": "1）充电机使用传输协议功能接收BCS报文；",
+							"en": "1) The charger uses the transport protocol function to receive the BCS message;"
+						},
+						{
+							"cn": "2）自首次发送SPN2830=0xAA的CRO报文起ms充电机250 ms的周期发送该报文，报文格式、内容和周期GBT 27930—2015中9.2和10.2.5的要求。",
+							"en": "2) Since the CRO message of SPN2830 = 0 xAA is sent for the first time, the message shall be sent at a cycle of 250 ms by the charger, and the format, content and cycle of the message shall meet the requirements of 9.2 and 10.2.5 in GBT 27930 — 2015."
+						},
+						{
+							"cn": "3）超过ms，充电机发送SPN3924=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "3) The charger sends CEM message of SPN3924 = 01 over ms, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3004",
+					"id": "DN3004",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCL超时时间长度",
+							"en": "1 Check the charger to judge the BCL timeout duration"
+						},
+						{
+							"cn": "2 检查SPN3925=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3925 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CRO报文发送周期正确性",
+							"en": "6 Check the correctness of CRO message sending cycle"
+						},
+						{
+							"cn": "7 检查CRO报文发送ID正确性",
+							"en": "7 Check the correctness of sending ID of CRO message"
+						},
+						{
+							"cn": "8 检查CRO报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CRO message"
+						},
+						{
+							"cn": "9 检查CRO报文发送数据域正确性",
+							"en": "9. Check the correctness of CRO message sending data field"
+						},
+						{
+							"cn": "10 检查充电机使用传输协议接收BCS正确性",
+							"en": "10 Check whether the charger uses the transmission protocol to receive the BCS correctly"
+						},
+						{
+							"cn": "1）充电机传输协议功能接收BCS报文；",
+							"en": "1) Charger transmission protocol function receives BCS message;"
+						},
+						{
+							"cn": "2）自首次发送SPN2830=0xAA的CRO报文起ms充电机250 ms的周期发送该报文，报文格式、内容和周期GBT 27930—2015中9.2和10.2.5的要求；",
+							"en": "2) When the CRO message of SPN2830 = 0 xAA is sent for the first time, the message shall be sent at a cycle of 250 ms by the charger, and the format, content and cycle of the message shall meet the requirements of 9.2 and 10.2.5 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "3）超过ms，充电机发送SPN3925=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "3) When ms is exceeded, the charger sends SPN3925 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3005",
+					"id": "DN3005",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCS报文超时时间",
+							"en": "1 Check whether the charger judges the timeout time of BCS message"
+						},
+						{
+							"cn": "2 检查SPN3924=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3924 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CCS报文发送周期正确性",
+							"en": "6 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "7 检查CCS报文发送ID正确性",
+							"en": "7 Check the correctness of CCS message sending ID"
+						},
+						{
+							"cn": "8 检查CCS报文发送长度正确性",
+							"en": "8 Check the correctness of sending length of CCS message"
+						},
+						{
+							"cn": "9 检查CCS报文发送内容正确性",
+							"en": "9 Check the correctness of CCS message sending content"
+						},
+						{
+							"cn": "1）自上一次接收到BCS报文起ms，充电机发送CCS报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.3的要求；",
+							"en": "1) The charger shall send CCS message ms after the last BCS message is received, with the format, content and period of the message specified in 9.3 and 10.3.3 of GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms，充电机发送SPN3924=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) When ms is exceeded, the charger sends SPN3924 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3006",
+					"id": "DN3006",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCL报文超时时间长度",
+							"en": "1 Check the charger to judge the timeout duration of BCL message"
+						},
+						{
+							"cn": "2 检查SPN3925=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3925 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CCS报文发送周期正确性",
+							"en": "6 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "7 检查CCS报文发送ID正确性",
+							"en": "7 Check the correctness of CCS message sending ID"
+						},
+						{
+							"cn": "8 检查CCS报文发送长度正确性",
+							"en": "8 Check the correctness of sending length of CCS message"
+						},
+						{
+							"cn": "9 检查CCS报文发送内容正确性",
+							"en": "9 Check the correctness of CCS message sending content"
+						},
+						{
+							"cn": "10 检查充电机使用传输协议接收BCS正确性",
+							"en": "10 Check whether the charger uses the transmission protocol to receive the BCS correctly"
+						},
+						{
+							"cn": "1）充电机传输协议功能接收BCS报文；",
+							"en": "1) Charger transmission protocol function receives BCS message;"
+						},
+						{
+							"cn": "2）自上一次接收到BCL报文起ms，充电机发送CCS报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.3的要求；",
+							"en": "2) The charger shall send CCS message ms after the last BCL message is received, and the message format, content and period shall meet the requirements of 9.3 and 10.3.3 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "3）超过ms，充电机发送SPN3925=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "3) When ms is exceeded, the charger sends SPN3925 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3007",
+					"id": "DN3007",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCS报文超时时间",
+							"en": "1 Check whether the charger judges the timeout time of BCS message"
+						},
+						{
+							"cn": "2 检查SPN3924=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3924 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CCS报文发送周期正确性",
+							"en": "6 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "7 检查CCS报文发送ID正确性",
+							"en": "7 Check the correctness of CCS message sending ID"
+						},
+						{
+							"cn": "8 检查CCS报文发送长度正确性",
+							"en": "8 Check the correctness of sending length of CCS message"
+						},
+						{
+							"cn": "9 检查CCS报文发送内容正确性",
+							"en": "9 Check the correctness of CCS message sending content"
+						},
+						{
+							"cn": "1）自上一次接收到BCS报文起ms内，充电机发送CCS报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.3的要求；",
+							"en": "1) The charger shall send CCS telegram within ms since the last reception of BCS telegram. The format, content and period of the telegram shall meet the requirements of 9.3 and 10.3.3 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms，充电机发送SPN3924=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) When ms is exceeded, the charger sends SPN3924 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3008",
+					"id": "DN3008",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BCL报文超时时间",
+							"en": "1 Check the charger to judge the timeout time of BCL message"
+						},
+						{
+							"cn": "2 检查SPN3925=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3925 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CCS报文发送周期正确性",
+							"en": "6 Check the correctness of CCS message sending cycle"
+						},
+						{
+							"cn": "7 检查CCS报文发送ID正确性",
+							"en": "7 Check the correctness of CCS message sending ID"
+						},
+						{
+							"cn": "8 检查CCS报文发送长度正确性",
+							"en": "8 Check the correctness of sending length of CCS message"
+						},
+						{
+							"cn": "9 检查CCS报文发送内容正确性",
+							"en": "9 Check the correctness of CCS message sending content"
+						},
+						{
+							"cn": "10 检查充电机使用传输协议接收BCS正确性",
+							"en": "10 Check whether the charger uses the transmission protocol to receive the BCS correctly"
+						},
+						{
+							"cn": "1）充电机传输协议功能接收BCS报文；",
+							"en": "1) Charger transmission protocol function receives BCS message;"
+						},
+						{
+							"cn": "2）自上一次接收到BCL报文起ms，充电机发送CCS报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.3的要求；",
+							"en": "2) The charger shall send CCS message ms after the last BCL message is received, and the message format, content and period shall meet the requirements of 9.3 and 10.3.3 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "3）超过ms，充电机发送SPN3925=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "3) When ms is exceeded, the charger sends SPN3925 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3009",
+					"id": "DN3009",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BST报文超时时间长度",
+							"en": "1 Check the charger to determine the timeout duration of BST message"
+						},
+						{
+							"cn": "2 检查SPN3926=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3926 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms，充电机按10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) Since the first CST message is sent, the charger sends the CST message at a cycle of 10 ms, and the format, content and cycle of the message are in accordance with the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms，充电机发送SPN3926=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) When ms is exceeded, the charger sends SPN3926 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN3010",
+					"id": "DN3010",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BST报文超时时间",
+							"en": "1 Check the charger to judge the timeout time of BST message"
+						},
+						{
+							"cn": "2 检查SPN3926=01的CEM报文正确性",
+							"en": "2. Check the correctness of CEM message of SPN3926 = 01."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms内，充电机按10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) Within ms since the first CST message is sent, the charger sends the CST message at a cycle of 10 ms, and the format, content and cycle of the message are in accordance with the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms，充电机发送SPN3926=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) When ms is exceeded, the charger sends SPN3926 = 01 CEM message, and the format, content and period of the message are in accordance with the requirements of 9.5 and 10.5.2 in GBT 27930 — 2015."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "充电结束阶段检验",
+			"id": "InspectionAtTheEndOfCharging",
+			"experiments": [
+				{
+					"name": "DP4001",
+					"id": "DP4001",
+					"output_items": [
+						{
+							"cn": "1 检查CSD报文ID正确性",
+							"en": "1 Check the correctness of CSD message ID"
+						},
+						{
+							"cn": "2 检查CSD报文数据长度正确性",
+							"en": "2. Check the correctness of CSD message data length"
+						},
+						{
+							"cn": "3 检查CSD报文发送周期正确性",
+							"en": "3 Check the correctness of the sending cycle of the CSD message"
+						},
+						{
+							"cn": "4 检查CSD报文发送中止条件正确性",
+							"en": "4 Check the correctness of CSD message sending suspension condition"
+						},
+						{
+							"cn": "1）充电机250 ms的周期发送CSD报文，报文格式、内容和周期GB/T 27930—2015中9.4和10.4.2的要求，报文长度8个字节；",
+							"en": "1) The charger sends the CSD message at a cycle of 250 ms, the message format, content and cycle are in accordance with the requirements of 9.4 and 10.4.2 in GB/T 27930 — 2015, and the message length is 8 bytes;"
+						},
+						{
+							"cn": "2）充电机停止发送CSD报文，关闭辅助电源，充电结束。",
+							"en": "2) The charger stops sending the CSD message and turns off the auxiliary power supply to end the charging."
+						}
+					]
+				},
+				{
+					"name": "DP4002",
+					"id": "DP4002",
+					"output_items": [
+						{
+							"cn": "1 检查充电机刷卡充电应失败",
+							"en": "1. Check whether the card swiping charging of the charger fails."
+						}
+					]
+				},
+				{
+					"name": "DN4001",
+					"id": "DN4001",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BSD报文超时时间",
+							"en": "1 Check the charger to determine the timeout time of BSD message"
+						},
+						{
+							"cn": "2 检查SPN3927=01的CEM报文正确性",
+							"en": "2. Check the CEM message of SPN3927 = 01 for correctness."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms充电机10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) Since the first CST message is sent, the charger shall send the CST message at a cycle of 10 ms, and the format, content and cycle of the message shall meet the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过m s充电机发送SPN3927=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) CEM message of SPN3927 = 01 sent by the m s charger is in excess of the requirements of 9.5 and 10.5.2 in the format, content and period of the message in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN4002",
+					"id": "DN4002",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BSD超时时间长度",
+							"en": "1 Check the charger to determine the length of BSD timeout"
+						},
+						{
+							"cn": "2 检查SPN3927=01的CEM报文正确性",
+							"en": "2. Check the CEM message of SPN3927 = 01 for correctness."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms充电机按10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) Since the first CST message is sent, the ms charger shall send the CST message at a cycle of 10 ms, and the format, content and cycle of the message shall meet the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms充电机发送SPN3927=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) Exceed the requirements of 9.5 and 10.5.2 in the format, content and period of the CEM message of SPN3927 = 01 sent by the ms charger in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN4003",
+					"id": "DN4003",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BSD超时时间长度",
+							"en": "1 Check the charger to determine the length of BSD timeout"
+						},
+						{
+							"cn": "2 检查SPN3927=01的CEM报文正确性",
+							"en": "2. Check the CEM message of SPN3927 = 01 for correctness."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms内充电机10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) The charger shall send the CST message at a cycle of 10 ms within ms from the first sending of the CST message, and the format, content and cycle of the message shall meet the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过ms充电机发送SPN3927=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) Exceed the requirements of 9.5 and 10.5.2 in the format, content and period of the CEM message of SPN3927 = 01 sent by the ms charger in GBT 27930 — 2015."
+						}
+					]
+				},
+				{
+					"name": "DN4004",
+					"id": "DN4004",
+					"output_items": [
+						{
+							"cn": "1 检查充电机判断BSD超时时间长度",
+							"en": "1 Check the charger to determine the length of BSD timeout"
+						},
+						{
+							"cn": "2 检查SPN3927=01的CEM报文正确性",
+							"en": "2. Check the CEM message of SPN3927 = 01 for correctness."
+						},
+						{
+							"cn": "3 检查CEM报文ID正确性",
+							"en": "3 Check the correctness of CEM message ID"
+						},
+						{
+							"cn": "4 检查CEM报文发送周期正确性",
+							"en": "4 Check the correctness of CEM message sending cycle"
+						},
+						{
+							"cn": "5 检查CEM数据域正确性",
+							"en": "5 Check the correctness of CEM data field"
+						},
+						{
+							"cn": "6 检查CST报文发送周期正确性",
+							"en": "6 Check the correctness of CST message sending cycle"
+						},
+						{
+							"cn": "7 检查CST报文发送ID正确性",
+							"en": "7 Check the correctness of the sending ID of CST message"
+						},
+						{
+							"cn": "8 检查CST报文发送长度正确性",
+							"en": "8. Check the correctness of sending length of CST message"
+						},
+						{
+							"cn": "9 检查CST报文发送内容正确性",
+							"en": "9 Check the correctness of CST message sending content"
+						},
+						{
+							"cn": "1）自首次发送CST报文起ms内充电机10 ms的周期发送CST报文，报文格式、内容和周期GBT 27930—2015中9.3和10.3.9的要求；",
+							"en": "1) The charger shall send the CST message at a cycle of 10 ms within ms from the first sending of the CST message, and the format, content and cycle of the message shall meet the requirements of 9.3 and 10.3.9 in GBT 27930 — 2015;"
+						},
+						{
+							"cn": "2）超过m s充电机发送SPN3927=01的CEM报文，报文格式、内容和周期GBT 27930—2015中9.5和10.5.2的要求。",
+							"en": "2) CEM message of SPN3927 = 01 sent by the m s charger is in excess of the requirements of 9.5 and 10.5.2 in the format, content and period of the message in GBT 27930 — 2015."
+						}
+					]
+				}
+			]
+		}
+	]
+}
